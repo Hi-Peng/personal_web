@@ -5,7 +5,6 @@
 title: Hilal Yahya # the website title (if blank, full name will be used instead)
 first_name: Hilal
 middle_name: Yahya
-last_name: 
 email: ymuhammadhilal@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -103,7 +102,6 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: HiPeng Space # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: learning for lifetime
 permalink: /blog/:year/:title/
 
 # Pagination

@@ -1,48 +1,18 @@
 ---
 layout: post
-title: Membuat Sistem Pemicu SCR-TRIAC 3 Fasa dengan implementasi Timer STM32
+title: 3 Phase Firing System for TRIAC-SCR using STM32 Timers - Part One (en)
 date: 2022-08-23 00:00:00-0400
-description: Bagian I - Awal mula
-tags: stm32
-categories: sample-posts external-services
+description: The Case and The Plan
+tags: stm32 power-electronics PWM english
+categories: power-electronics
 ---
 
-Hallo semuanya, kali ini saya akan sedikit _sharing_ terkait dengan implementasi _timer_ STM32 pada proyek AC Regulator 3 Fasa.
+Thyristor (also known as SCR a.k.a Silicon Controlled Rectifier) and TRIAC are active electronics switching component mainly used in power electronics. We might be unaware about it existance in our household appliance. But when we take a closer look to our electronics appliance at home, we commonly found this component integrated to it. Mostly it was used for dimming light, controlling your drill speed, and many more. It also used in industrial control system too, such as induction motor speed control, power control, any many more.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
-</div>
+In this article, we are going to discuss about how we can use this Thyristor to regulate a 3 phase AC input in bidirectional mode or unidirectional mode. I'm not going to explain all the theory behind the working princple of thyristor and how anti paralel thyristor can act as TRIAC (you can find it in other online articles).
 
-Images can be made zoomable.
-Simply add `data-zoomable` to `<img>` tags that you want to make zoomable.
+# The Case
+Last month, my power electronics professor ask me to help his project about rebuilding 3 phase firing circuit learning module at power electronics lab. I was free at that time, so I take the challenge and willing to help my professor to rebuild it. 
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-The rest of the images in this post are all zoomable, arranged into different mini-galleries.
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/12.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
+# The Plan
+lorem ipsum kontol sit amet
