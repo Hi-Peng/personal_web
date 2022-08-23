@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <span style='font-weight:bold;'>Hard Work</span> is Happy Work
+subtitle: <span style='font-weight:bold;'>Hardwork</span>  <span style='font-weight:100;'>is</span>  <span style='font-weight:bold;'>Happy Work</span> 
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
