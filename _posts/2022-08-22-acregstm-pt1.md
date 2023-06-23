@@ -21,8 +21,8 @@ My power electronics professor asked me to help with his project about rebuildin
     </div>
 </div>
 <div class="caption">
-    Analog firing circuit, was built from 2005.
+    Analog firing circuit, was built in 2005.
 </div>
 
 # System Design
-lorem ipsum kontol sit amet
+In order to generate trigger pulse with the references of zero-cross voltage from the voltage source, timer based pulse generator was implemented in our design. The input channel was feeded by zero-crossing detector circuit. The zero-crossing detector was designed to generate logic high when the input signal on positive side, and vice-versa. Operational Amplifier (OpAmp) was used to compare the input signal with the voltage references.
